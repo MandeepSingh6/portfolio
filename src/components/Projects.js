@@ -1,8 +1,8 @@
 import React from "react";
 import currencyconverter from "../Assets/currencyconverter.png";
-import netflix from "../Assets/netflix.png";
+import bingebase from "../Assets/bingebase.jpg";
 import memegenerator from "../Assets/memegenerator.png";
-import gallary from "../Assets/gallary.png";
+import youtube from "../Assets/youtube.jpg";
 
 function Projects() {
   return (
@@ -16,14 +16,13 @@ function Projects() {
         </div>
         <div className="">
           <ul className="grid sm:grid-cols-2 gap-12 p-4 pb-12">
-
             <li className="text-white mx-auto relative hover:scale-110 duration-300">
-              <img className="w-[360px]" src={netflix} alt="p1" />
+              <img className="w-[360px]" src={bingebase} alt="p1" />
               <div className="duration-300 absolute left-0 top-0 opacity-0 hover:opacity-90 flex flex-col items-center justify-center bg-black w-full h-full">
-                <p className="text-lg">Netflix Clone</p>
+                <p className="text-lg">BingeBase</p>
                 <p className="text-[10px]">(Tailwind, React)</p>
                 <button className="border-2 px-4 mt-2 bg-blue-900">
-                  <a href="https://netflix-mandeep.netlify.app">Demo</a>
+                  <a href="https://binge-base.vercel.app/">Demo</a>
                 </button>
               </div>
             </li>
@@ -33,7 +32,9 @@ function Projects() {
                 <p className="text-lg">Currency Converter</p>
                 <p className="text-[10px]">(CSS, JavaScript)</p>
                 <button className="border-2 px-4 mt-2 bg-blue-900">
-                  <a href="https://currencyconverter-mandeep.netlify.app">Demo</a>
+                  <a href="https://currencyconverter-mandeep.netlify.app">
+                    Demo
+                  </a>
                 </button>
               </div>
             </li>
@@ -49,12 +50,12 @@ function Projects() {
               </div>
             </li>
             <li className="text-white mx-auto relative hover:scale-110 duration-300">
-              <img className="w-[360px]" src={gallary} alt="p1" />
+              <img className="w-[360px]" src={youtube} alt="p1" />
               <div className="duration-300 absolute left-0 top-0 opacity-0 hover:opacity-90 flex flex-col items-center justify-center bg-black w-full h-full">
-                <p className="text-lg">Gallary</p>
-                <p className="text-[10px]">(JavaScript, CSS)</p>
+                <p className="text-lg">Youtube Clone</p>
+                <p className="text-[10px]">(React, Tailwind)</p>
                 <button className="border-2 px-4 mt-2 bg-blue-900">
-                  <a href="https://gallary-mandeep.netlify.app">Demo</a>
+                  <a href="https://mandeep-youtube.vercel.app/">Demo</a>
                 </button>
               </div>
             </li>
