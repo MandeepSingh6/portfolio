@@ -1,5 +1,5 @@
 import BingeBase from "./Assets/bingebase.jpg";
-import youtube from "./Assets/youtube.jpg";
+import youtube from "./Assets/youtube-.jpg";
 import currencyConverter from "./Assets/currencyconverter.png";
 
 import HTML from "./Assets/html.png";
