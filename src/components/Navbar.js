@@ -84,7 +84,7 @@ function Navbar() {
         </li>
       </ul>
 
-      <div className="block fixed top-[35%] left-0">
+      <div className="block fixed top-[15%] left-0">
         <ul>
           <li className="bg-blue-500 w-[108px] h-[40px] flex justify-between items-center -ml-[72px] hover:ml-0 duration-300 pr-1 pl-1 z-[100]">
             <a

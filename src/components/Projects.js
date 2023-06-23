@@ -9,7 +9,7 @@ function Projects() {
         <div>
           <h2 className="text-white text-center text-4xl mb-8">PROJECTS</h2>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div className="flex flex-col gap-12">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
@@ -18,6 +18,7 @@ function Projects() {
               technologies={project.technologies}
               imgSrc={project.imgSrc}
               url={project.src}
+              description={project.description || ""}
             />
           ))}
         </div>
