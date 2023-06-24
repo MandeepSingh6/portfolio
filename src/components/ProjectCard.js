@@ -28,7 +28,9 @@ const ProjectCard = ({
       <div className="py-1 text-white">
         <span className="font-extrabold text-lg">{name}</span>
         <br />
-        <p className="text-justify font-light">{description}</p>
+        <p className="text-justify font-light text-sm">
+          {description.split("For Admin").join("\r\n ADMIN")}
+        </p>
       </div>
     </div>
   );
