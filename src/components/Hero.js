@@ -8,7 +8,7 @@ function Hero() {
         <p className="text-blue-300">Hi, my name is</p>
         <h1 className="text-white text-4xl pb-1">Mandeep Singh</h1>
         <h2 className="text-gray-400 text-4xl">
-          I'm a Frontend Software Developer
+          I'm a Software Developer
         </h2>
         <div className="text-white mt-2 ">
           <Link to="projects" smooth={true} duration={500}>
