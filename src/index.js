@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App.js";
 
 import { inject } from "@vercel/analytics";
-
 inject();
 
 const root = createRoot(document.getElementById("root"));

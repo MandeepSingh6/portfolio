@@ -10,9 +10,9 @@ function Navbar() {
   return (
     <div className="fixed flex justify-between items-center py-2 text-white w-full bg-[#1a2852] px-20 z-50">
       <div className="cursor-pointer text-xl text-blue-300 uppercase">
-        <Link to="hero" smooth={true} duration={500}>
+        {/* <Link to="hero" smooth={true} duration={500}>
           PORTFOLIO
-        </Link>
+        </Link> */}
       </div>
 
       <ul className="hidden md:flex gap-4">
@@ -88,6 +88,7 @@ function Navbar() {
         <ul>
           <li className="bg-blue-500 w-[108px] h-[40px] flex justify-between items-center -ml-[72px] hover:ml-0 duration-300 pr-1 pl-1 z-[100]">
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/mandeep-singh-764531234"
               className="flex justify-between w-full items-center"
             >
@@ -97,6 +98,7 @@ function Navbar() {
           </li>
           <li className="bg-gray-700 w-[108px] h-[40px] flex justify-between items-center -ml-[72px] hover:ml-0 duration-300 pr-1 pl-1">
             <a
+              target="_blank"
               href="https://github.com/MandeepSingh6"
               className="flex justify-between w-full items-center"
             >
