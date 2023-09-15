@@ -22,6 +22,24 @@ function Projects() {
             />
           ))}
         </div>
+        <div className="pl-2 md:p-0 mt-12">
+          <h2 className="text-3xl text-white mb-4">More Projects...</h2>
+          <select
+            onChange={(e) => e.target.value && window.open(e.target.value)}
+            className="w-1/2 rounded py-1 text-lg"
+          >
+            <option value="">Select a project to open</option>
+            <option value="https://currencyconverter-mandeep.netlify.app">
+              Currency Converter
+            </option>
+            <option value="https://netflix-mandeep.netlify.app">
+              Netflix Clone
+            </option>
+            <option value="https://tenzies-mandeep.netlify.app/">
+              Tenzies
+            </option>
+          </select>
+        </div>
       </div>
     </div>
   );
