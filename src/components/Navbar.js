@@ -1,5 +1,6 @@
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { ImProfile } from "react-icons/im";
 import { HiOutlineMail } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
@@ -86,6 +87,16 @@ function Navbar() {
 
       <div className="block fixed top-[15%] left-0">
         <ul>
+          <li className="bg-gray-700 w-[108px] h-[40px] flex justify-between items-center -ml-[72px] hover:ml-0 duration-300 pr-1 pl-1">
+            <a
+              target="_blank"
+              href="https://sapphire-reba-8.tiiny.site"
+              className="flex justify-between w-full items-center"
+            >
+              Resume
+              <ImProfile size={30} className="translate-x-[2px]" />
+            </a>
+          </li>
           <li className="bg-blue-500 w-[108px] h-[40px] flex justify-between items-center -ml-[72px] hover:ml-0 duration-300 pr-1 pl-1 z-[100]">
             <a
               target="_blank"
