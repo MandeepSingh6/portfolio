@@ -32,6 +32,9 @@ function Projects() {
             <option value="https://currencyconverter-mandeep.netlify.app">
               Currency Converter
             </option>
+            <option value="https://task-manager-seven-mu.vercel.app/">
+              Task Manager
+            </option>
             <option value="https://netflix-mandeep.netlify.app">
               Netflix Clone
             </option>
