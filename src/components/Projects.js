@@ -7,7 +7,7 @@ function Projects() {
     <div name="projects" className="bg-[#1a2852] min-h-screen pt-[2.4rem]">
       <div className="w-[90%] mx-auto">
         <div>
-          <h2 className="text-white text-center text-4xl mb-8">PROJECTS</h2>
+          <h2 className="text-white text-center text-4xl mb-12">PROJECTS</h2>
         </div>
         <div className="flex flex-col gap-12">
           {projects.map((project, index) => (

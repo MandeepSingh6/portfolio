@@ -53,8 +53,9 @@ export const projects = [
 export const skills = [
   { id: 102, name: "JavaScript", imgSrc: JavaScript },
   { id: 103, name: "React", imgSrc: React },
-  { id: 104, name: "Tailwind", imgSrc: Tailwind },
   { id: 105, name: "NextJs", imgSrc: NextJs },
+  { id: 104, name: "Tailwind", imgSrc: Tailwind },
+
   { id: 106, name: "TypeScript", imgSrc: TypeScript },
   { id: 107, name: "HTML", imgSrc: HTML },
   { id: 108, name: "CSS", imgSrc: CSS },

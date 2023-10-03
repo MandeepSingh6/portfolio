@@ -22,14 +22,15 @@ function Navbar() {
             Home
           </Link>
         </li>
-        <li className="cursor-pointer">
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
+
         <li className="cursor-pointer">
           <Link to="projects" smooth={true} duration={500}>
             Projects
+          </Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
           </Link>
         </li>
         <li className="cursor-pointer">
