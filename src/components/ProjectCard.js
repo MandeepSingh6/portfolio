@@ -9,7 +9,7 @@ const ProjectCard = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row gap-2 border-2 p-2 rounded-xl text-center md:text-left">
+    <div className="flex flex-col md:flex-row gap-2 p-2 rounded-xl text-center md:text-left">
       <div className={`text-white relative duration-300 mx-auto`}>
         <img
           className="min-w-[380px] max-w-[380px] rounded-lg "

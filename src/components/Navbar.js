@@ -95,7 +95,7 @@ function Navbar() {
               className="flex justify-between w-full items-center"
             >
               Resume
-              <ImProfile size={28} className="translate-x-[2px]" />
+              <ImProfile size={28} className="translate-x-[1px]" />
             </a>
           </li>
           <li className="bg-blue-500 w-[108px] h-[40px] flex justify-between items-center -ml-[72px] hover:ml-0 duration-300 pr-1 pl-1 z-[100]">
